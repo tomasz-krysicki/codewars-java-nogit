@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         for (double i = 1; i < 13; i++) {
-            System.out.println((int) Math.ceil(i/3));
+            System.out.println((int) Math.ceil(i / 3));
         }
 
         System.out.println(quarterOf(1));
@@ -21,8 +21,6 @@ public class Main {
     }
 
     public static int quarterOf(int month) {
-        return (int) Math.ceil((double)month / 3);
+        return (int) Math.ceil((double) month / 3);
     }
-
-
 }
